@@ -1,0 +1,254 @@
+<title>Stryde Club Weekly — Aug 4, 2026 draft</title>
+<style>
+  :root{
+    --bg:#faf8f4; --bg-alt:#ffffff; --card:#ffffff;
+    --ink:#181511; --ink-dim:#5b544a; --ink-faint:#8a8175;
+    --accent:#a47e0a; --accent-ink:#3d2f06;
+    --rule:rgba(24,21,17,0.12); --rule-strong:rgba(24,21,17,0.22);
+    --draft:#8f4c3a; --draft-bg:#f7e9e2;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0b0c0e; --bg-alt:#141518; --card:#15161a;
+      --ink:#f2efe8; --ink-dim:#a8a196; --ink-faint:#726b60;
+      --accent:#c9a227; --accent-ink:#f4e6b8;
+      --rule:rgba(242,239,232,0.13); --rule-strong:rgba(242,239,232,0.24);
+      --draft:#e2a793; --draft-bg:#241512;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0b0c0e; --bg-alt:#141518; --card:#15161a;
+    --ink:#f2efe8; --ink-dim:#a8a196; --ink-faint:#726b60;
+    --accent:#c9a227; --accent-ink:#f4e6b8;
+    --rule:rgba(242,239,232,0.13); --rule-strong:rgba(242,239,232,0.24);
+    --draft:#e2a793; --draft-bg:#241512;
+  }
+  :root[data-theme="light"]{
+    --bg:#faf8f4; --bg-alt:#ffffff; --card:#ffffff;
+    --ink:#181511; --ink-dim:#5b544a; --ink-faint:#8a8175;
+    --accent:#a47e0a; --accent-ink:#3d2f06;
+    --rule:rgba(24,21,17,0.12); --rule-strong:rgba(24,21,17,0.22);
+    --draft:#8f4c3a; --draft-bg:#f7e9e2;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family: -apple-system, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    display:flex; justify-content:center;
+    padding: 28px 16px 64px;
+  }
+  .sheet{ width:100%; max-width:660px; }
+
+  .draft-banner{
+    background:var(--draft-bg); color:var(--draft);
+    border:1px solid var(--draft);
+    border-radius:8px; padding:10px 16px; margin-bottom:28px;
+    font-size:13px; font-weight:600; letter-spacing:.02em;
+    display:flex; align-items:center; gap:8px;
+  }
+  .draft-banner .dot{ width:7px; height:7px; border-radius:50%; background:var(--draft); flex:none; }
+
+  .masthead{
+    text-align:center; padding-bottom:22px; margin-bottom:30px;
+    border-bottom:1px solid var(--rule-strong);
+  }
+  .masthead .brand{
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", ui-serif, serif;
+    font-size:34px; font-weight:600; letter-spacing:.01em;
+    text-wrap:balance; margin:0 0 6px;
+  }
+  .masthead .brand em{ color:var(--accent); font-style:normal; }
+  .masthead .tagline{
+    font-size:13px; letter-spacing:.09em; text-transform:uppercase;
+    color:var(--ink-faint); margin:0;
+  }
+  .masthead .weekof{
+    font-size:13px; color:var(--ink-dim); margin-top:10px;
+  }
+
+  .eyebrow{
+    display:flex; align-items:center; gap:10px;
+    font-size:12.5px; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--accent); font-weight:700;
+    margin: 40px 0 16px;
+  }
+  .eyebrow::after{
+    content:""; flex:1; height:1px; background:var(--rule);
+  }
+  section:first-of-type .eyebrow{ margin-top:0; }
+
+  .lead{
+    background:var(--card); border:1px solid var(--rule);
+    border-left:3px solid var(--accent);
+    border-radius:4px; padding:22px 24px;
+  }
+  .lead h1{
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", ui-serif, serif;
+    font-size:25px; line-height:1.28; font-weight:600;
+    margin:0 0 12px; text-wrap:balance;
+  }
+  .lead p{ margin:0 0 10px; color:var(--ink-dim); font-size:15.5px; line-height:1.65; }
+  .lead p:last-of-type{ margin-bottom:0; }
+
+  .story{ margin-bottom:22px; }
+  .story:last-child{ margin-bottom:0; }
+  .story h3{
+    font-size:16.5px; font-weight:700; line-height:1.4;
+    margin:0 0 6px; text-wrap:balance;
+  }
+  .story p{ margin:0 0 4px; color:var(--ink-dim); font-size:14.5px; line-height:1.62; }
+
+  .src{
+    font-size:12px; color:var(--ink-faint); font-style:italic; margin-top:6px;
+  }
+
+  .watch-list{ margin:0; padding:0; list-style:none; }
+  .watch-list li{
+    padding:11px 0; border-bottom:1px solid var(--rule);
+    font-size:14.5px; line-height:1.6; color:var(--ink-dim);
+  }
+  .watch-list li:last-child{ border-bottom:none; }
+  .watch-list b{ color:var(--ink); }
+
+  .divider{ height:1px; background:var(--rule); margin:34px 0; border:none; }
+
+  footer{
+    margin-top:44px; padding-top:20px; border-top:1px solid var(--rule-strong);
+    font-size:12.5px; color:var(--ink-faint); line-height:1.7;
+  }
+  footer .status{
+    color:var(--draft); font-weight:600; margin-top:8px;
+  }
+
+  ::selection{ background:var(--accent); color:var(--bg-alt); }
+</style>
+
+<div class="sheet">
+
+  <div class="draft-banner"><span class="dot"></span> Internal draft — scraped &amp; rewritten for review, not sent to members</div>
+
+  <div class="masthead">
+    <p class="brand">Stryde Club <em>Weekly</em></p>
+    <p class="tagline">The business of sport, for allocators</p>
+    <p class="weekof">Week of July 29 – August 4, 2026</p>
+  </div>
+
+  <section>
+    <div class="eyebrow">Lead</div>
+    <div class="lead">
+      <h1>FIFA's $4.2B stake sale collapses — and takes Infantino's grip with it</h1>
+      <p>FIFA spent the week trying, and failing, to sell a 21% stake in its commercial operations to a Joshua Kushner–led investor group for $4.2B — money it wanted to triple development funding for member federations. UEFA threatened a full boycott, Concacaf followed, and by Sunday the deal was dead.</p>
+      <p>The bigger story for allocators is what it exposed: national federations, including England's FA, have now pulled their backing for Gianni Infantino's 2027 re-election bid. A governing body this size trying to monetize itself via a private stake sale — and getting overruled by its own members — is a live case study in how far "federation as an investable asset" still is from reality, and how much political capital a deal like this can burn even when the check is real.</p>
+      <p class="src">via The Athletic (nytimes.com)</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Capital &amp; Deals</div>
+
+    <div class="story">
+      <h3>IG Group buys Underdog for up to $1.3B</h3>
+      <p>The London-listed trading firm is paying at least $1.1B cash plus up to $850M in earn-outs for the prediction-market app, which just turned profitable on 950K+ monthly users. A traditional financial-markets player buying its way into sports prediction, rather than building — worth watching as the read-through for how betting-adjacent platforms get valued when a regulated acquirer sets the price.</p>
+      <p class="src">via Sportico</p>
+    </div>
+
+    <div class="story">
+      <h3>LIV Golf is down to its last $350M ask</h3>
+      <p>With the Saudi PIF confirmed to be ending its backing after this season, LIV cancelled its $40M Michigan finale and is now shopping for outside capital to survive into 2027. A sovereign-backed league losing its sponsor is the scenario every allocator underwriting a similarly-funded property should be modeling.</p>
+      <p class="src">via Front Office Sports</p>
+    </div>
+
+    <div class="story">
+      <h3>Prediction markets keep raising, and keep getting sued</h3>
+      <p>Sports exchange ProphetX closed a $35M round from Parlay Capital and Data Point Capital after 50% user growth in 30 days — the same week New York filed a $36B suit against rival Kalshi alleging illegal gambling. The capital is real; so is the regulatory overhang.</p>
+      <p class="src">via Google News, Front Office Sports</p>
+    </div>
+
+    <div class="story">
+      <h3>DAZN's own backer is looking for the exit</h3>
+      <p>Aser Ventures — which holds roughly 5% of DAZN, worth about $400M, from the 2023 Eleven Group deal — is exploring a sale of its stake to fund bets elsewhere. DAZN itself lost $936M last year and is weighing a public listing. A minority holder heading for the door ahead of a potential IPO is a signal worth tracking on valuation.</p>
+      <p class="src">via Google News</p>
+    </div>
+
+    <div class="story">
+      <h3>Spanish women's soccer took the cash, Real Madrid wouldn't</h3>
+      <p>Liga F accepted $64.5M from a Pau Gasol–led investor group in exchange for nearly half of broadcast and sponsorship revenue for 25 years. Real Madrid publicly opposed the structure as a bad long-term trade — a useful data point on how top clubs price revenue-share deals against growth capital.</p>
+      <p class="src">via The Athletic</p>
+    </div>
+
+    <div class="story">
+      <h3>NBA Europe's London franchise is drawing serious money</h3>
+      <p>Palo Alto Networks CEO Nikesh Arora is leading a $1B+ bid for the league's proposed London team, one of 120+ bids fielded (range: $500M–$1B+) for the 16-team European league launching in 2027. Franchise pricing this aggressive for a league that doesn't exist yet says a lot about where global sports capital thinks growth is.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Valuations &amp; Ownership</div>
+
+    <div class="story">
+      <h3>Real Madrid crossed €1.2B in revenue — and still runs on credit</h3>
+      <p>The club is the first to break that mark, driven by its renovated stadium, but holds only €83M in cash and leans on credit lines to cover payroll despite a €26M profit. Scale doesn't equal balance-sheet strength — worth remembering when comping club economics off top-line revenue alone.</p>
+      <p class="src">via The Athletic</p>
+    </div>
+
+    <div class="story">
+      <h3>Aston Martin's brand IP is now a credit fight</h3>
+      <p>Creditors owed roughly $1.75B are threatening to unwind a $738M BlackRock/HPS loan that would hand 50.1% of the carmaker's non-car branding rights to Authentic Brands. Structuring a rescue loan against brand IP rather than the core business is an aggressive template — expect to see it copied, and expect the fights that come with it.</p>
+      <p class="src">via Google News</p>
+    </div>
+
+    <div class="story">
+      <h3>Sportradar's data costs are outgrowing its revenue</h3>
+      <p>Despite 18.9% revenue growth, the cost of buying sports data rights jumped 29.7% to $159M, swinging the company to a $4M quarterly loss. As rights costs keep compounding, the platforms reselling that data absorb the squeeze first.</p>
+      <p class="src">via CompleteIGaming</p>
+    </div>
+
+    <div class="story">
+      <h3>Two venues, two very different funding models</h3>
+      <p>The Rose Bowl raised $80M privately (donations plus local tax credits, no city money) ahead of LA28, while Dublin's Laya Arena completed a €52M joint redevelopment between venue owner RDS and Leinster Rugby with naming rights attached. Two clean templates for venue capex that skips public financing.</p>
+      <p class="src">via Forbes, SportForBusiness</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Leagues &amp; Governance</div>
+
+    <div class="story">
+      <h3>Private equity now runs the league, not just the teams</h3>
+      <p>Apollo executive and LAFC co-owner Larry Berg was chosen as MLS's next commissioner, beating a former Fox media executive — in a league where 16 of 30 teams already carry PE backing. Berg has to divest his LAFC stake to take the job, but the signal is clear: financial-sponsor DNA now runs league leadership, not just cap tables.</p>
+    </div>
+
+    <div class="story">
+      <h3>Congress is close to setting the rules on athlete pay</h3>
+      <p>The Big Ten and SEC are backing a Senate bill that would raise the athlete payment cap above $40M and shield the NCAA's governing structure from lawsuits — while a federal judge simultaneously blocked the NCAA from denying a fifth year of eligibility to college athletes. Whichever way this lands changes the cost structure of every college athletics balance sheet.</p>
+    </div>
+
+    <div class="story">
+      <h3>Women's sports capital is getting crowded, fast</h3>
+      <p>Athletes Unlimited paused its planned 2027 basketball league after the WNBA's new labor deal pushed minimum salaries to $270K and rivals Unrivaled and Project B started offering multi-million-dollar contracts. Capital is chasing women's basketball from several directions at once — the category has moved from thesis to competitive land-grab.</p>
+    </div>
+
+    <div class="story">
+      <h3>Regional note: the NBA pulled its Abu Dhabi preseason games</h3>
+      <p>The league cancelled its games there over the ongoing US-Iran conflict — the first cancellation in five years — redirecting to Paris, Mexico City and Manchester instead. Worth flagging directly for a Gulf-based allocator base: geopolitical risk is now visibly repricing where leagues choose to build a Middle East presence.</p>
+      <p class="src">via Front Office Sports</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Worth Watching</div>
+    <ul class="watch-list">
+      <li><b>Women's sports viewership keeps setting records</b> — the WNBA All-Star Game outdrew its NBA counterpart for the first time, and the league reported 73M viewers at midseason versus 63M for all of last season.</li>
+      <li><b>College sponsorship is repricing above pro comps</b> — Notre Dame ($20M/yr, SoFi) and Ohio State ($17M/yr, JPMorganChase) both signed jersey-patch deals now exceeding the ~$10M average NBA teams get for the same real estate.</li>
+      <li><b>Active ownership, compounding</b> — VC Mark Ein bought the DC Open in 2019 and has since quadrupled the tournament's revenue with a 100% annual sellout rate.</li>
+      <li><b>First US women's pro baseball league in 72 years sold out its opener</b>, with ESPN carrying 37 games nationally — an early distribution signal for a brand-new property.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Curated and rewritten in-house from a week of sports-business coverage, including reporting originally published by The Athletic/NYT, Front Office Sports, Sportico, Forbes, CompleteIGaming and SportForBusiness. This is an independent Stryde Club summary, not a repost of any single source.
+    <div class="status">Draft only — not yet reviewed or approved for member distribution.</div>
+  </footer>
+
+</div>
