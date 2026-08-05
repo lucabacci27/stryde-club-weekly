@@ -1,42 +1,72 @@
 # Stryde Club Weekly
-### The business of sport, for allocators — Aug 5, 2026 edition (covering new coverage since last week's digest)
+### The business of sport, for allocators — week of Jul 29 – Aug 5, 2026
 
 ---
 
-## The trend: sports properties are selling slices of cash flow, not the asset — and nobody's pricing the optionality yet
+## Lead: FIFA tried to sell itself. LSU sold a slice of its TV deal instead. One blew up; the other didn't.
 
-Two weeks running, we've now seen a college program and a professional league sell a *stake in a specific revenue line* rather than dilute the underlying asset itself: Liga F took $64.5M from Pau Gasol's group for a 25-year, no-buyback share of roughly half its broadcast and sponsorship revenue; LSU just took the opposite side of that same trade. Today LSU sold private investors a 10% stake in its football program's *media rights* — not the program itself — for over $100M, structured with a guaranteed return or a cut of the upside when its TV deal is renegotiated, and a buyback option in five years.
+Over the past week we watched the same basic trade attempted at two very different levels of directness — and the market's reaction split cleanly along that line. FIFA's attempt to sell a 21% stake in its actual commercial operations for $4.2B collapsed publicly: UEFA and Concacaf rejected it, FIFA's own secretary general and COO said staff had been kept in the dark, and national federations have now pulled their backing for Infantino's 2027 re-election bid. Meanwhile LSU sold a 10% stake in specifically its football media rights — not the program itself — for $100M+, with a 5-year buyback option, and Liga F did something structurally similar (a 25-year revenue share, no buyback) the week before. Neither drew any governance backlash at all.
 
-On the numbers, LSU got the better structure: more capital ($100M vs. $64.5M) for a smaller, time-boxed claim (10% for 5 years, with an exit option) versus Liga F's larger, permanent-feeling 25-year commitment. But the deal reporting leaves out the one variable that actually prices that advantage: the buyback strike. If LSU can repurchase the stake for close to $100M in 2031, this is cheap, flexible financing. If the buyback price scales with the TV deal's upside, LSU may be paying a much higher effective cost of capital than the "guaranteed return" framing suggests. Until buyback and reset terms in these deals get standardized and disclosed, every one of them needs the same question asked before it's compared to the last one: what's the actual embedded cost of capital, not just the headline check size.
+The pattern for allocators: narrow, revenue-line-specific stakes are closing quietly right now; whole-of-institution stakes are radioactive. But none of the narrow deals disclose the buyback or reset pricing that would let anyone verify whether "quiet" also means "cheap" — that's the term to chase down before using any of these as a comp.
 
----
-
-## Capital & Deals
-
-**LSU sells a 10% stake in its media rights for $100M+** — see above. *(via Google News)*
-
-**NBA Europe's London bid is now a two-horse race between a tech billionaire and a sovereign fund.** Palo Alto Networks CEO Nikesh Arora's $1B+ bid for the league's proposed London franchise is facing direct competition from Saudi Arabia's state wealth fund, with the NBA eyeing land next to London's Battersea Power Station for a custom arena. Worth flagging: this is a *bid*, not a cleared price — there's no comparable transaction to validate it against until the league actually launches in 2027.
-
-**Polymarket keeps buying legitimacy for its US platform.** New data-rights deals with Genius Sports (US streaming rights to Serie A and other events) and the ATP Tour (roughly 20,000 matches a season, including Indian Wells and the ATP Finals) both bundle in integrity monitoring for suspicious trading. Coming the same week Kalshi is fighting a $36B illegal-gambling suit from New York, Polymarket is visibly trying to out-legitimize its prediction-market rivals rather than out-raise them.
+*(via The Athletic/NYT, Google News)*
 
 ---
 
-## Valuations & Ownership
+## MENA
 
-**Manchester United's kit sponsorship keeps climbing — but the term length is the missing number.** A record $27M training-kit deal with Betway (owned by Super Group) lands the same week United is trying to fund a stadium rebuild north of $2.7B. The reporting doesn't specify whether $27M is annual or total-contract, which matters: it's either a strong new run-rate comp for the next round of jersey-patch deals (see Notre Dame's $20M/yr and Ohio State's $17M/yr), or a much smaller annualized figure if spread over a multi-year term.
+**The Saudi PIF is pulling back from LIV Golf** — its primary backer confirmed it's ending support after this season, forcing LIV to cancel its $40M Michigan finale and seek $350M from outside investors. A sovereign-backed property losing its sponsor is the direct scenario to stress-test on anything Gulf-capital-funded. *(via Front Office Sports)*
 
-**Churchill Downs and NYRA are building a content product, not just a race day.** Their new six-race championship series, launching 2027 with a $5M bonus pool, is a deliberate attempt to keep casual fans engaged for five months after the Kentucky Derby rather than letting attention lapse. Notably excludes the Preakness for now — worth watching whether that's a negotiating position or a permanent split.
-
----
-
-## Leagues & Governance
-
-**FIFA's leadership crisis is no longer just external.** Following last week's collapsed $4.2B stake sale, Gianni Infantino called an emergency meeting after FIFA's own secretary general and chief operating officer publicly criticized the scrapped proposal and said staff had been kept in the dark. UEFA has moved from "opposed" to explicitly demanding his resignation — a governance embarrassment has become a live succession question in under two weeks.
-
-**FIFA's World Cup host cities want their money — and the numbers show how lopsided the split is.** All 11 US host cities say FIFA promised $1M each for local community projects (roughly $11M total) and hasn't paid, against FIFA's reported $15B in tournament revenue — while Kansas City alone spent $86.8M in public funds hosting six games. The unpaid amount is about 0.07% of FIFA's revenue; the asymmetry, not the dollar figure, is the actual story for anyone underwriting host-city or municipal exposure to a mega-event.
+**The NBA cancelled its Abu Dhabi preseason games** over the US-Iran conflict — the first cancellation there in five years, games redirected to Paris, Mexico City and Manchester. Geopolitical risk is visibly repricing where leagues build a Middle East presence right now. *(via Front Office Sports)*
 
 ---
 
-*Curated and rewritten in-house from Daily Playbook's Aug 5 coverage, sourced in turn from Google News, InsiderSport, Sportcal, Forbes, and The Athletic/NYT. This is an independent Stryde Club summary, not a repost of any single source.*
+## Europe
+
+**Real Madrid crossed €1.2B in revenue and still runs on credit** — only €83M cash on hand despite the record top line. Scale isn't balance-sheet strength. *(via The Athletic)*
+
+**Liga F took Pau Gasol's $64.5M** for a 25-year, no-buyback revenue share; Real Madrid publicly opposed the structure — see the lead for the comparison to LSU.
+
+**DAZN's own investor, Aser Ventures, is shopping its ~5% stake** (~$400M) ahead of a possible DAZN listing, after DAZN lost $936M last year.
+
+**Aston Martin's creditors are trying to convert a $738M loan into 50.1% of its non-car brand rights** — a distressed version of the same "carve out one line" structure seen elsewhere this week. *(via Google News)*
+
+**NBA Europe's London bid is now Nikesh Arora vs. Saudi Arabia's state wealth fund**, with the league eyeing land next to Battersea Power Station — a live bid, not yet a cleared price.
+
+**Manchester United's $27M Betway training-kit deal** is a new high, though the reporting doesn't say if that's annual or total-term.
+
+---
+
+## Americas
+
+**LSU sold 10% of its football media rights for $100M+** — see the lead.
+
+**IG Group bought Underdog for up to $1.3B**, a regulated financial-markets player buying into prediction markets rather than building.
+
+**The MLS commissioner race went to Larry Berg**, an Apollo executive and LAFC co-owner — in a league where 16 of 30 teams already carry PE backing. Financial-sponsor DNA now runs league leadership, not just cap tables.
+
+**New York is suing Kalshi for $36B** over alleged illegal gambling, the same week Polymarket is signing legitimacy-building rights deals with Genius Sports and the ATP Tour — the prediction-market capital is real, so is the regulatory overhang.
+
+**Women's sports capital is getting crowded** — Athletes Unlimited paused its 2027 basketball league launch after the WNBA's new labor deal and rival leagues (Unrivaled, Project B) started offering multi-million-dollar contracts.
+
+**College sponsorship keeps repricing above pro comps** — Notre Dame ($20M/yr, SoFi), Ohio State ($17M/yr, JPMorganChase).
+
+---
+
+## Asia & Oceania
+
+No stories from this source touched the region this week — flagging as a coverage gap in Daily Playbook specifically, not necessarily in the market. Worth a second source if genuine APAC breadth matters for the newsletter.
+
+---
+
+## Global & Cross-Border
+
+**FIFA's stake-sale collapse and leadership crisis** — full arc in the lead above.
+
+**US World Cup host cities say FIFA owes them ~$11M combined** against FIFA's $15B tournament revenue (0.07%) — while Kansas City alone spent $86.8M hosting six games. The asymmetry is the story, not the dollar figure.
+
+---
+
+*Curated and rewritten in-house from a full week of Daily Playbook coverage (Jul 29 – Aug 5), sourced in turn from The Athletic/NYT, Front Office Sports, Sportico, Google News, and others. Independent Stryde Club summary, not a repost.*
 
 **Draft only — not yet reviewed or approved for member distribution.**
