@@ -1,0 +1,90 @@
+{
+  "url": "https://www.daily-playbook.com/p/lsu-cashes-a-100m-pe-check",
+  "title": "LSU Cashes A $100M PE Check",
+  "publishedTime": "2026-08-05T10:58:00.000Z",
+  "sections": [
+    {
+      "category": "💸 Finance & Investments",
+      "stories": [
+        {
+          "headline": "LSU Secures Over $100M In Private Equity By Selling Football Media Rights Stake",
+          "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdXFUbzlESmY0VFlXY3Y3TVFZNFU0X2dGTENJUUd2aFVBNm9BYjVKTmZrN1NxVk8zSXNVMXN4RVZ3QXZaQ0xZaThuRzgyTU9SZmQ2ajF4NmNjcG1ucWptNEl1Smo2aUdGXzJONlJrTHF0SjdOQl9HVDNXekNQMGRsOTFVRk43Q3JZamtKYll3N1FXZm1HRHJtX2tuSjEzeHlKYVJkMEtpcTB4QndibjEzbFZOeFFoVEJ5",
+          "body": [
+            "The university traded a 10% share of its football program to private investors for immediate cash to fund its athletic department.",
+            "These investors will earn a guaranteed return or a cut of future television deals when the current sports broadcast contract is renegotiated.",
+            "The school can buy back this ownership share in five years, securing quick funds to cover rising costs like student-athlete compensation."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "📺Media, Broadcasting & Sponsorships",
+      "stories": [
+        {
+          "headline": "Manchester United Signs Record $27M Betway Training Kit Deal",
+          "sourceUrl": "https://insidersport.com/2026/08/04/manchester-united-record-betway-deal/",
+          "body": [
+            "Betway, owned by gambling operator Super Group, will appear on the men's and women's training kits from the 2026/27 season, reportedly for a record $27M.",
+            "A voluntary ban on gambling logos on shirt fronts has pushed betting firms toward sleeves and training wear, which remain permitted",
+            "Super Group is targeting Africa, where United is heavily followed, while the club seeks revenue for a stadium costing over $2.7B."
+          ]
+        },
+        {
+          "headline": "Polymarket Adds Genius Sports And ATP Tour Deals To Build Out Its US Platform",
+          "sourceUrl": "https://www.sportcal.com/media/polymarket-boost-us-platform-with-genius-sports-atp-tour-rights-agreements/",
+          "body": [
+            "Genius Sports, a sports data company, will supply Polymarket with US streaming rights to events including Italian soccer's Serie A.",
+            "The ATP tennis deal covers roughly 20,000 matches a season, including Indian Wells, the Miami Open, and the ATP Finals.",
+            "Both deals bundle in integrity monitoring to flag suspicious trading, a growing concern as betting-style prediction markets expand into live sports."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "🏆Teams & Leagues",
+      "stories": [
+        {
+          "headline": "Churchill Downs And New York Racing Association Launch A New Six-Race Championship Series",
+          "sourceUrl": "https://www.forbes.com/sites/dannybrewer/2026/08/04/churchill-downs-and-nyra--form-3-year-old-championship-racing-series/",
+          "body": [
+            "The new series begins in 2027 to keep casual sports fans engaged over a five-month span following the Kentucky Derby.",
+            "A $5M bonus pool will reward the top-performing horses to encourage owners and trainers to compete in all six events.",
+            "Major racing operators Churchill Downs and NYRA will broadcast the events nationally, notably excluding the traditional Preakness Stakes for now."
+          ]
+        },
+        {
+          "headline": "FIFA President Calls Emergency Meeting Following Backlash Over Scrapped Investment Plan",
+          "sourceUrl": "https://www.nytimes.com/athletic/7492523/2026/08/04/gianni-infantino-fifa-meeting-world-cup-sale/",
+          "body": [
+            "Gianni Infantino, president of world soccer governing body FIFA, tried selling shares of commercial operations to private investors but faced immense global backlash.",
+            "Top FIFA executives, including the secretary general and chief operating officer, publicly criticized the secret proposal and claimed staff had been deceived.",
+            "UEFA, European football's governing body, has demanded Infantino resign, while other global soccer groups are urgently seeking answers about his leadership."
+          ]
+        },
+        {
+          "headline": "NBA Considers London's Battersea Power Station For New European Team Arena",
+          "sourceUrl": "https://www.nytimes.com/athletic/7491364/2026/08/04/nba-battersea-power-station-london-arena/",
+          "body": [
+            "The NBA plans to launch a 16-team European league by autumn 2027, with London expected to host one of the permanent franchises.",
+            "Officials are eyeing undeveloped land next to the historic Battersea site to build a custom stadium for the new basketball team.",
+            "Tech billionaire Nikesh Arora is leading a $1B bid for the team, facing competition from Saudi Arabia’s state wealth fund."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "🎁Miscellaneous",
+      "stories": [
+        {
+          "headline": "US World Cup Host Cities Demand Unpaid Promised Funds From FIFA",
+          "sourceUrl": "https://www.nytimes.com/athletic/7491195/2026/08/04/world-cup-host-cities-payment-fifa/",
+          "body": [
+            "FIFA, global soccer's governing body, allegedly promised each of the 11 US host cities $1M for local community projects but has not paid.",
+            "Organizers are frustrated waiting for payments while FIFA, which generated $15B in recent revenue, kept the vast majority of event profits.",
+            "Meanwhile, taxpayers bore huge operational costs, with Kansas City alone spending $86.8M in public funds to host six tournament games."
+          ]
+        }
+      ]
+    }
+  ]
+}

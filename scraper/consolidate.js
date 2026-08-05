@@ -1,22 +1,32 @@
-// Bundles every raw edition scraped since the last digest into one
-// weekly package for the rewrite step.
+// Bundles only the editions scrape.js just fetched (per its manifest) into
+// one weekly package for the rewrite step — NOT every file sitting in raw/,
+// which would re-include editions already covered by prior weekly digests.
 
 const fs = require('fs');
 const path = require('path');
 
 const RAW_DIR = path.join(__dirname, '..', 'raw');
 const OUTPUT_DIR = path.join(__dirname, '..', 'output');
+const MANIFEST_FILE = path.join(RAW_DIR, '.last-scrape-manifest.json');
 
 function consolidate() {
+  if (!fs.existsSync(MANIFEST_FILE)) {
+    console.log('No scrape manifest found — run scrape.js first.');
+    return null;
+  }
+  const newUrls = new Set(JSON.parse(fs.readFileSync(MANIFEST_FILE, 'utf8')));
+
   const files = fs
     .readdirSync(RAW_DIR)
     .filter((f) => f.endsWith('.json'))
     .sort(); // filenames are date-prefixed, so this sorts chronologically
 
-  const editions = files.map((f) => JSON.parse(fs.readFileSync(path.join(RAW_DIR, f), 'utf8')));
+  const editions = files
+    .map((f) => JSON.parse(fs.readFileSync(path.join(RAW_DIR, f), 'utf8')))
+    .filter((e) => newUrls.has(e.url));
 
   if (editions.length === 0) {
-    console.log('No raw editions found — run scrape.js first.');
+    console.log('No new editions in the last scrape — nothing to consolidate.');
     return null;
   }
 

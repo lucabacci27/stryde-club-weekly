@@ -133,6 +133,7 @@ async function main() {
   const newEditions = editions.filter((e) => !state.seenUrls.includes(e.url));
   if (newEditions.length === 0) {
     console.log('No new editions since last run.');
+    fs.writeFileSync(path.join(RAW_DIR, '.last-scrape-manifest.json'), JSON.stringify([]));
     return [];
   }
 
@@ -152,6 +153,11 @@ async function main() {
   state.seenUrls = Array.from(new Set([...state.seenUrls, ...newEditions.map((e) => e.url)])).slice(-100);
   state.lastScrapedDate = new Date().toISOString();
   saveState(state);
+
+  // consolidate.js reads this to know which raw/ files belong to *this* run,
+  // instead of re-bundling every edition still sitting in raw/ from prior weeks.
+  const manifestFile = path.join(RAW_DIR, '.last-scrape-manifest.json');
+  fs.writeFileSync(manifestFile, JSON.stringify(results.map((r) => r.url)));
 
   console.log(`Scraped ${results.length} new edition(s).`);
   return results;

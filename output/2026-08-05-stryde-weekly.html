@@ -1,0 +1,200 @@
+<title>Stryde Club Weekly — Aug 5, 2026 draft</title>
+<style>
+  :root{
+    --bg:#faf8f4; --bg-alt:#ffffff; --card:#ffffff;
+    --ink:#181511; --ink-dim:#5b544a; --ink-faint:#8a8175;
+    --accent:#a47e0a; --accent-ink:#3d2f06;
+    --rule:rgba(24,21,17,0.12); --rule-strong:rgba(24,21,17,0.22);
+    --draft:#8f4c3a; --draft-bg:#f7e9e2;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0b0c0e; --bg-alt:#141518; --card:#15161a;
+      --ink:#f2efe8; --ink-dim:#a8a196; --ink-faint:#726b60;
+      --accent:#c9a227; --accent-ink:#f4e6b8;
+      --rule:rgba(242,239,232,0.13); --rule-strong:rgba(242,239,232,0.24);
+      --draft:#e2a793; --draft-bg:#241512;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0b0c0e; --bg-alt:#141518; --card:#15161a;
+    --ink:#f2efe8; --ink-dim:#a8a196; --ink-faint:#726b60;
+    --accent:#c9a227; --accent-ink:#f4e6b8;
+    --rule:rgba(242,239,232,0.13); --rule-strong:rgba(242,239,232,0.24);
+    --draft:#e2a793; --draft-bg:#241512;
+  }
+  :root[data-theme="light"]{
+    --bg:#faf8f4; --bg-alt:#ffffff; --card:#ffffff;
+    --ink:#181511; --ink-dim:#5b544a; --ink-faint:#8a8175;
+    --accent:#a47e0a; --accent-ink:#3d2f06;
+    --rule:rgba(24,21,17,0.12); --rule-strong:rgba(24,21,17,0.22);
+    --draft:#8f4c3a; --draft-bg:#f7e9e2;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family: -apple-system, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    display:flex; justify-content:center;
+    padding: 28px 16px 64px;
+  }
+  .sheet{ width:100%; max-width:660px; }
+
+  .draft-banner{
+    background:var(--draft-bg); color:var(--draft);
+    border:1px solid var(--draft);
+    border-radius:8px; padding:10px 16px; margin-bottom:28px;
+    font-size:13px; font-weight:600; letter-spacing:.02em;
+    display:flex; align-items:center; gap:8px;
+  }
+  .draft-banner .dot{ width:7px; height:7px; border-radius:50%; background:var(--draft); flex:none; }
+
+  .masthead{
+    text-align:center; padding-bottom:22px; margin-bottom:30px;
+    border-bottom:1px solid var(--rule-strong);
+  }
+  .masthead .brand{
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", ui-serif, serif;
+    font-size:34px; font-weight:600; letter-spacing:.01em;
+    text-wrap:balance; margin:0 0 6px;
+  }
+  .masthead .brand em{ color:var(--accent); font-style:normal; }
+  .masthead .tagline{
+    font-size:13px; letter-spacing:.09em; text-transform:uppercase;
+    color:var(--ink-faint); margin:0;
+  }
+  .masthead .weekof{
+    font-size:13px; color:var(--ink-dim); margin-top:10px;
+  }
+
+  .eyebrow{
+    display:flex; align-items:center; gap:10px;
+    font-size:12.5px; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--accent); font-weight:700;
+    margin: 40px 0 16px;
+  }
+  .eyebrow::after{
+    content:""; flex:1; height:1px; background:var(--rule);
+  }
+  section:first-of-type .eyebrow{ margin-top:0; }
+
+  .lead{
+    background:var(--card); border:1px solid var(--rule);
+    border-left:3px solid var(--accent);
+    border-radius:4px; padding:22px 24px;
+  }
+  .lead h1{
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", ui-serif, serif;
+    font-size:25px; line-height:1.28; font-weight:600;
+    margin:0 0 12px; text-wrap:balance;
+  }
+  .lead p{ margin:0 0 10px; color:var(--ink-dim); font-size:15.5px; line-height:1.65; }
+  .lead p:last-of-type{ margin-bottom:0; }
+
+  .story{ margin-bottom:22px; }
+  .story:last-child{ margin-bottom:0; }
+  .story h3{
+    font-size:16.5px; font-weight:700; line-height:1.4;
+    margin:0 0 6px; text-wrap:balance;
+  }
+  .story p{ margin:0 0 4px; color:var(--ink-dim); font-size:14.5px; line-height:1.62; }
+
+  .src{
+    font-size:12px; color:var(--ink-faint); font-style:italic; margin-top:6px;
+  }
+
+  .watch-list{ margin:0; padding:0; list-style:none; }
+  .watch-list li{
+    padding:11px 0; border-bottom:1px solid var(--rule);
+    font-size:14.5px; line-height:1.6; color:var(--ink-dim);
+  }
+  .watch-list li:last-child{ border-bottom:none; }
+  .watch-list b{ color:var(--ink); }
+
+  .divider{ height:1px; background:var(--rule); margin:34px 0; border:none; }
+
+  footer{
+    margin-top:44px; padding-top:20px; border-top:1px solid var(--rule-strong);
+    font-size:12.5px; color:var(--ink-faint); line-height:1.7;
+  }
+  footer .status{
+    color:var(--draft); font-weight:600; margin-top:8px;
+  }
+
+  ::selection{ background:var(--accent); color:var(--bg-alt); }
+</style>
+
+<div class="sheet">
+
+  <div class="draft-banner"><span class="dot"></span> Internal draft — scraped &amp; rewritten for review, not sent to members</div>
+
+  <div class="masthead">
+    <p class="brand">Stryde Club <em>Weekly</em></p>
+    <p class="tagline">The business of sport, for allocators</p>
+    <p class="weekof">Aug 5, 2026 edition (covering new coverage since last week's digest)</p>
+  </div>
+
+  <section>
+    <div class="eyebrow">The Trend</div>
+    <div class="lead">
+      <h1>Sports properties are selling slices of cash flow, not the asset — and nobody's pricing the optionality yet</h1>
+      <p>Two weeks running, we've now seen a college program and a professional league sell a <em>stake in a specific revenue line</em> rather than dilute the underlying asset itself: Liga F took $64.5M from Pau Gasol's group for a 25-year, no-buyback share of roughly half its broadcast and sponsorship revenue; LSU just took the opposite side of that same trade. Today LSU sold private investors a 10% stake in its football program's <em>media rights</em> — not the program itself — for over $100M, structured with a guaranteed return or a cut of the upside when its TV deal is renegotiated, and a buyback option in five years.</p>
+      <p>On the numbers, LSU got the better structure: more capital ($100M vs. $64.5M) for a smaller, time-boxed claim (10% for 5 years, with an exit option) versus Liga F's larger, permanent-feeling 25-year commitment. But the deal reporting leaves out the one variable that actually prices that advantage: the buyback strike. If LSU can repurchase the stake for close to $100M in 2031, this is cheap, flexible financing. If the buyback price scales with the TV deal's upside, LSU may be paying a much higher effective cost of capital than the "guaranteed return" framing suggests. Until buyback and reset terms in these deals get standardized and disclosed, every one of them needs the same question asked before it's compared to the last one: what's the actual embedded cost of capital, not just the headline check size.</p>
+      <p class="src">via Google News</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Capital &amp; Deals</div>
+
+    <div class="story">
+      <h3>LSU sells a 10% stake in its media rights for $100M+</h3>
+      <p>See the trend above — full mechanics and the open buyback question.</p>
+      <p class="src">via Google News</p>
+    </div>
+
+    <div class="story">
+      <h3>NBA Europe's London bid is now a two-horse race between a tech billionaire and a sovereign fund</h3>
+      <p>Palo Alto Networks CEO Nikesh Arora's $1B+ bid for the league's proposed London franchise is facing direct competition from Saudi Arabia's state wealth fund, with the NBA eyeing land next to London's Battersea Power Station for a custom arena. Worth flagging: this is a bid, not a cleared price — there's no comparable transaction to validate it against until the league actually launches in 2027.</p>
+    </div>
+
+    <div class="story">
+      <h3>Polymarket keeps buying legitimacy for its US platform</h3>
+      <p>New data-rights deals with Genius Sports (US streaming rights to Serie A and other events) and the ATP Tour (roughly 20,000 matches a season, including Indian Wells and the ATP Finals) both bundle in integrity monitoring for suspicious trading. Coming the same week Kalshi is fighting a $36B illegal-gambling suit from New York, Polymarket is visibly trying to out-legitimize its prediction-market rivals rather than out-raise them.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Valuations &amp; Ownership</div>
+
+    <div class="story">
+      <h3>Manchester United's kit sponsorship keeps climbing — but the term length is the missing number</h3>
+      <p>A record $27M training-kit deal with Betway (owned by Super Group) lands the same week United is trying to fund a stadium rebuild north of $2.7B. The reporting doesn't specify whether $27M is annual or total-contract, which matters: it's either a strong new run-rate comp for the next round of jersey-patch deals (see Notre Dame's $20M/yr and Ohio State's $17M/yr), or a much smaller annualized figure if spread over a multi-year term.</p>
+    </div>
+
+    <div class="story">
+      <h3>Churchill Downs and NYRA are building a content product, not just a race day</h3>
+      <p>Their new six-race championship series, launching 2027 with a $5M bonus pool, is a deliberate attempt to keep casual fans engaged for five months after the Kentucky Derby rather than letting attention lapse. Notably excludes the Preakness for now — worth watching whether that's a negotiating position or a permanent split.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Leagues &amp; Governance</div>
+
+    <div class="story">
+      <h3>FIFA's leadership crisis is no longer just external</h3>
+      <p>Following last week's collapsed $4.2B stake sale, Gianni Infantino called an emergency meeting after FIFA's own secretary general and chief operating officer publicly criticized the scrapped proposal and said staff had been kept in the dark. UEFA has moved from "opposed" to explicitly demanding his resignation — a governance embarrassment has become a live succession question in under two weeks.</p>
+    </div>
+
+    <div class="story">
+      <h3>FIFA's World Cup host cities want their money — and the numbers show how lopsided the split is</h3>
+      <p>All 11 US host cities say FIFA promised $1M each for local community projects (roughly $11M total) and hasn't paid, against FIFA's reported $15B in tournament revenue — while Kansas City alone spent $86.8M in public funds hosting six games. The unpaid amount is about 0.07% of FIFA's revenue; the asymmetry, not the dollar figure, is the actual story for anyone underwriting host-city or municipal exposure to a mega-event.</p>
+    </div>
+  </section>
+
+  <footer>
+    Curated and rewritten in-house from Daily Playbook's Aug 5 coverage, sourced in turn from Google News, InsiderSport, Sportcal, Forbes, and The Athletic/NYT. This is an independent Stryde Club summary, not a repost of any single source.
+    <div class="status">Draft only — not yet reviewed or approved for member distribution.</div>
+  </footer>
+
+</div>
