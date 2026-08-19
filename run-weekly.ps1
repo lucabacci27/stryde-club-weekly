@@ -38,6 +38,8 @@ if ($scrapeLines -match "No new editions since last run") {
 
 node scraper/consolidate.js 2>&1 | Write-Host
 
+$commitBefore = (git rev-parse HEAD).Trim()
+
 $prompt = @"
 Read REWRITE_GUIDE.md in this repo -- it's the rulebook for what you're about to do, including the two-stage Lupin (financial analyst mode) -> Flo (synthesis mode) rewrite process using this project's agent-mode pack at 'Stryde Tools and Workflows/agents/'.
 
@@ -53,9 +55,43 @@ Never publish, email, or send this digest to actual Stryde Club members or any e
 "@
 
 claude -p $prompt --dangerously-skip-permissions
+$claudeExit = $LASTEXITCODE
 
-if ($LASTEXITCODE -eq 0) {
+# claude -p exiting 0 only means the process didn't crash -- it does NOT mean the
+# digest actually got written, committed, and pushed. Verify the real artifact
+# instead of trusting the process exit code alone (this is what silently let the
+# 2026-08-17 run report success while producing nothing -- see run-weekly.log).
+
+$commitAfter = (git rev-parse HEAD).Trim()
+$committed = $commitAfter -ne $commitBefore
+
+$digestWasChanged = $false
+if ($committed) {
+    $changedFiles = git diff --name-only $commitBefore $commitAfter
+    $digestWasChanged = ($changedFiles -match 'output/.*-stryde-weekly\.md$').Count -gt 0
+}
+
+$pushedOk = $false
+if ($committed) {
+    git fetch origin main --quiet 2>&1 | Write-Host
+    $remoteHead = (git rev-parse origin/main).Trim()
+    $pushedOk = $remoteHead -eq $commitAfter
+}
+
+$success = ($claudeExit -eq 0) -and $committed -and $digestWasChanged -and $pushedOk
+
+if ($success) {
+    Write-Host "Verified: new commit $commitAfter includes a digest file and is pushed to origin/main."
     Show-Toast "Stryde Club Weekly" "This week's draft is ready and pushed to the repo for review."
+    exit 0
 } else {
-    Show-Toast "Stryde Club Weekly" "Something went wrong -- check the log."
+    $reasons = @()
+    if ($claudeExit -ne 0) { $reasons += "claude -p exited $claudeExit" }
+    if (-not $committed) { $reasons += "no new commit was created" }
+    if ($committed -and -not $digestWasChanged) { $reasons += "the new commit doesn't touch an output/*-stryde-weekly.md file" }
+    if ($committed -and -not $pushedOk) { $reasons += "the new commit wasn't pushed to origin/main" }
+    $reasonText = $reasons -join "; "
+    Write-Host "FAILED: $reasonText"
+    Show-Toast "Stryde Club Weekly" "Digest run did not complete: $reasonText -- check run-weekly.log."
+    exit 1
 }
