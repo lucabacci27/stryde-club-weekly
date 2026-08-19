@@ -1,0 +1,81 @@
+{
+  "url": "https://www.daily-playbook.com/p/lakers-sell-for-record-12-5b",
+  "title": "Lakers Sell For Record $12.5B",
+  "publishedTime": "2026-08-13T10:58:00.000Z",
+  "sections": [
+    {
+      "category": "💸 Finance & Investments",
+      "stories": [
+        {
+          "headline": "Los Angeles Lakers Sold To Bob Iger And Joshua Kushner For $12.5B",
+          "sourceUrl": "https://www.nytimes.com/athletic/7508177/2026/08/12/los-angeles-lakers-sale-mark-walter-bob-iger-joshua-kushner/",
+          "body": [
+            "Former Disney CEO Bob Iger and investor Joshua Kushner are buying the basketball team from Dodgers owner Mark Walter.",
+            "The $12.5B purchase sets a new professional sports record, easily surpassing the team's $10B valuation from 14 months ago.",
+            "Despite the ownership change, current team executive Jeanie Buss will keep her leadership role for at least five years."
+          ]
+        },
+        {
+          "headline": "J.P. Morgan Issues Cautious Outlook On FanDuel Parent Flutter Entertainment Amid Falling Market Share",
+          "sourceUrl": "https://completeigaming.com/flutter-trying-to-get-its-mojo-back-j-p-morgan-analyst-says/",
+          "body": [
+            "FanDuel, Flutter's primary US sports betting brand, saw its market share drop from 47% to 39% following the departure of two top executives.",
+            "The business faces rising competition from unregulated prediction markets, which allow users to wager on events without navigating traditional sports betting taxes.",
+            "These US struggles, along with international issues like a steep UK tax hike to 40%, caused Flutter’s stock to fall 68% from historic highs."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "📺Media, Broadcasting & Sponsorships",
+      "stories": [
+        {
+          "headline": "Capital One Extends Washington Arena Naming Rights Through 2047",
+          "sourceUrl": "https://www.sportcal.com/sponsorship/capital-one-retains-naming-rights-for-washington-d-c-arena-through-2047/",
+          "body": [
+            "The 20-year renewal keeps the bank's name on the home of the NBA's Wizards and NHL's Capitals.",
+            "Owner Monumental Sports & Entertainment is halfway through a $1B-plus renovation, with $500M funded by Washington D.C.",
+            "Capital One cardholders will get a dedicated arena entrance and discounts across the venue under the deal."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "🏆Teams & Leagues",
+      "stories": [
+        {
+          "headline": "DP World Tour To Reinstate Fines And Suspensions For LIV Golfers In 2027",
+          "sourceUrl": "https://www.nytimes.com/athletic/7509214/2026/08/12/dp-world-tour-liv-golf-players-2027-fines/",
+          "body": [
+            "The DP World Tour, a major European golf circuit, will resume penalizing players who compete in the rival LIV Golf league starting in 2027.",
+            "This policy change follows LIV's new plan to offer players equity, which officials fear will discourage full participation in European events.",
+            "The reinstated fines threaten the 2027 Ryder Cup hopes of European athletes, as the tour controls team selection for the prestigious tournament."
+          ]
+        },
+        {
+          "headline": "WNBA Faces Potential Legal Battles Over Vague Gender Eligibility Rules",
+          "sourceUrl": "https://www.sportico.com/law/analysis/2026/wnba-trans-athlete-eligibility-legal-questions-1234941584/",
+          "body": [
+            "Former NBA players Enes Kanter Freedom and Royce White sparked debate by threatening to exploit undefined gender rules for the 2027 draft.",
+            "The current labor agreement requires players to be women but lacks a clear definition, leaving the WNBA vulnerable to workplace discrimination lawsuits.",
+            "While only about 10 of 500K college athletes are transgender, legal experts advise the league and union to clarify entry requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "🎁Miscellaneous",
+      "stories": [
+        {
+          "headline": "Federal Regulator Allows Prediction Market Kalshi To Bypass New York Gambling Ban",
+          "sourceUrl": "https://completeigaming.com/cftc-uses-emergency-authority-to-allow-kalshi-to-continue-operating-in-new-york/",
+          "body": [
+            "The Commodity Futures Trading Commission, a US federal agency, used emergency authority to keep the platform online despite state objections.",
+            "New York sued Kalshi for illegal gambling, seeking $36B in penalties because the platform bypasses local taxes and underage betting limits.",
+            "The outcome will determine if betting on real-world events should be regulated as a federal financial trade or a state-level casino game."
+          ]
+        }
+      ]
+    }
+  ]
+}
