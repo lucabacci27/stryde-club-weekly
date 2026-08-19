@@ -1,1 +1,9 @@
 node_modules/
+
+# Gmail OAuth client + minted tokens for Donna's ingestion — never commit (public repo)
+ingest/.oauth-client.json
+ingest/.gmail-credentials.json
+
+# Slack webhook URL — never commit (public repo)
+.slack-webhook.json
+.env
